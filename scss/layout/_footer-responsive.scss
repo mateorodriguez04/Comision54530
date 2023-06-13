@@ -1,0 +1,71 @@
+@media (max-width: 768px) {
+    footer{
+        margin-top: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 15em;
+    } 
+    .contact{
+        h6{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.8em;
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1em;
+        }
+    }
+    .contact2{
+        h6{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            margin-left: 0.5em;
+        }
+    }
+
+}
+@media (max-width: 538px) {
+    .contact2 p{
+        font-size: 13px;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        button{
+            margin-left: 0.5em;
+        }
+    }
+}
+@media (max-width: 375px) {
+    .contact2 p{
+        display: flex;
+        justify-content: center;
+        font-size: 11px;
+    }
+}
+@media (max-width: 325px) {
+    .contact2 p{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+}

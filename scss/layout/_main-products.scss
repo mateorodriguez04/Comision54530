@@ -1,0 +1,119 @@
+.grid-areas-shop{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:40em,60em;
+    grid-template-areas: 
+    "container-buy buy-info"
+    ;}
+.buy-info{
+    grid-area:buy-info;
+    display: grid;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    padding-left: 50%;
+    justify-content: flex-end;
+    grid-template-columns: 10em 10em 10em;
+    grid-template-rows:10em;
+    grid-template-areas: 
+    "buy-info-text"
+    "buy-sizes"
+    "button"
+    ;
+}
+.buy-info-text{
+    grid-area: buy-info-text;
+}
+.buy-info h2{
+    color: $darkpurple;
+    font-weight: 600 bold;
+    font-size: 2em;
+}
+.buy-info p{
+    color: $darkpurple;
+    font-weight: 400 bold;
+    font-size: 2em;
+}
+
+.sizes {
+    display: flex;
+    flex-wrap: row;
+    list-style: none;
+} 
+.size{
+    width: 4em;
+    margin-left: 2px;
+    height: 4em;
+    border: 2px solid $darkpurple;
+}
+.size:hover{
+    background-color: $darkpurple;
+    color: $white;
+}
+.size-letra{
+    display: flex;
+    flex-direction: column;
+    color: $darkpurple;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400 bold;
+    font-size: 1.2em;
+}
+
+button{
+    grid-area: button;
+    margin-top: 0.5em;
+    background-color: $darkpurple;
+    border: 2px solid $lighpurple;
+    width: 22em;
+    height: 2em;
+    font-weight: 400 bold;
+    color: $white;
+    font-size: 1em;
+}
+.container-buy{
+    grid-area: container-buy;
+    display: grid;
+    margin-top: 5em;
+    grid-template-columns: 20% 20%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "buy-1 buy-2"
+    "buy-3 buy-4";
+    gap: .625rem ;
+    padding-left: 2em;
+    margin-bottom: 5em;
+}
+.buy-1{
+    grid-area: buy-1;
+    img{
+        width: 100%;
+        object-fit: cover;
+        border: 3.5px solid #393646;
+        cursor: pointer;
+    }
+}
+
+.buy-2{
+    img{
+        width: 100%;
+        object-fit: cover;
+        border: 3.5px solid #393646;
+        cursor: pointer;
+    }
+}
+.buy-3{
+    img{
+        width: 100%;
+        object-fit: cover;
+        border: 3.5px solid #393646;
+        cursor: pointer;
+    }
+}
+.buy-4{
+    img{
+        width: 100%;
+        object-fit: cover;
+        border: 3.5px solid #393646;
+        cursor: pointer;
+    }}

@@ -1,0 +1,102 @@
+.stores{
+    h2{
+        display: flex;
+        justify-content: center;
+        font-weight: 900 bold;
+        font-size: 3.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        color: #393646;
+        font-weight: 500 bold;
+        font-size: 2.2em;
+    }
+}
+.grid-areas{
+    display: grid;
+    grid-template-columns: 15em 60%;
+    grid-template-rows: repeat(6, 1fr) ;
+    grid-template-areas: 
+    "montevideo montevideo-img"
+    "montevideo montevideo-img"
+    "canelones canelones-img"
+    "canelones canelones-img"
+    "san san-img"
+    "san san-img"
+    ;
+    margin-top: 5em;
+}
+.montevideo{
+    grid-area: montevideo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+    .text-city {
+        padding-left: 1em;
+        h3{
+            display: flex;
+            color: #393646;
+            justify-content: center;
+            }
+        p{
+            display: flex;
+            color: #393646;
+            justify-content: center;
+        }
+    }
+.montevideo-img{
+        grid-area: montevideo-img;
+        img{
+
+            width: 100%;
+            object-fit: cover;
+            border: 3.5px solid #393646;
+            cursor: pointer;
+        }
+        img:hover{
+            border-color: $hoverimg;
+        }
+    }
+    .canelones{
+        grid-area: canelones;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .canelones-img{
+        grid-area: canelones-img;
+        img{
+            width: 100%;
+            object-fit: cover;
+            border: 3.5px solid #393646;
+            cursor: pointer;
+        }
+        img:hover{
+            border-color:$hoverimg;
+        }
+    }
+    .san{
+        grid-area: san;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .san-img{
+        grid-area: san-img;
+        img{
+            width: 100%;
+            object-fit: cover;
+            border: 3.5px solid #393646;
+            cursor: pointer;
+        }
+        img:hover{
+            border-color: #b443b4;
+    }
+    }

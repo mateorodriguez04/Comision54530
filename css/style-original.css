@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4EEE0;
+}
+a:link, a:visited,  a:hover, a:active
+{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+} 
+.header-nav{
+    background-color: #393646;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4.5em;
+    align-items: center;
+} 
+.navbar {
+    display: flex;
+    list-style: none;
+} 
+.title h1{
+    padding: 0.5em;
+    text-decoration: none;
+    color:#F4EEE0;
+    font-weight: 600;
+    font-size: 60px;
+} 
+.title h1:hover{
+    color:  #9c869c;
+} 
+.navbar a{
+    font-size: 1.5em;
+    color:#F4EEE0;
+    padding-right: 1em;
+}
+.navbar a:hover{
+    color:  #9c869c;
+}
+.banner img{
+    width: 100%;
+    height: 50vh;
+}
+#arrivals{
+    color: #393646;
+    font-weight: 700 bold;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.container-new{
+    display: flex;
+    width: 100%;
+    height: 28em;
+    background-color: #F4EEE0;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+    padding-top: 2em;
+
+}
+.new img{
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 20em;
+    border: solid 2px;
+    border-color: #393646;
+}
+.new img:hover{
+    border-color: #b443b4;
+}
+.info h3{
+    display: flex;
+    justify-content: center;
+    color: #393646;
+    font-weight: 500 bold;
+    font-size: 1.2em; 
+}
+.info h3:hover{
+    color:  #9c869c;
+}
+.info p{
+    color: #393646;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+}
+.info p:hover{
+    color:  #9c869c;
+}
+.container-products{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: #F4EEE0;
+    justify-content: space-evenly;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    width: 22em;
+    position: relative;
+    padding-top: 2em;
+}
+.products img{
+    object-fit: cover;
+    width: 100%;
+    height: 35em;
+    border: solid 2px;
+    border-color: #393646;
+}
+.products img:hover{
+    border-color: #b443b4;
+}
+.products h3{
+    display: flex;
+    align-self: center;
+    color: #393646;
+    font-size: 1.5em;
+}
+.products h3:hover{
+color: #b443b4;
+}
+
+footer{
+    margin-top: 7em;
+    background-color: #393646;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10em;
+    width: 100%;
+} 
+.contact{ 
+    padding-top: 0,5em;
+    padding-left: 1em;
+    cursor: pointer;
+}
+
+.contact h6{
+    font-weight: 500;
+    font-size: 1.8em;
+    color:#F4EEE0;
+    cursor: pointer;
+}
+.contact p{
+    font-weight: 300;
+    font-size: 1em;
+    color:#F4EEE0;
+    cursor: pointer;
+}
+.contact2{
+    padding-top: 0.8em;
+    padding-right: 1em;
+    cursor: pointer;
+}
+.contact2 h6{
+    font-weight: 500;
+    font-size: 1.2em;
+    color:#F4EEE0;
+}
+.contact2 p{
+    font-weight: 300;
+    font-size: 1.2em;
+    color:#F4EEE0;
+}
+
+.form #mail{
+    background-color: #F4EEE0;
+    width: 9em;
+    height: 2em;
+    border: 0;
+    color: #393646;
+    font-size: 1em;
+}
+.form button{
+    background-color: #6D5D6E;
+    color: #F4EEE0;
+    border: 0;
+    width: 5em;
+    height: 2.2em;
+}
+.form button:hover{
+background-color:  #9c869c;
+}
+.container-buy{
+    top: 0;
+    display: flex;
+    width: 60%;
+    height: 600px;
+    background-color: #F4EEE0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 12em;
+}
+.buy{
+    width: 40%;
+    margin: 0.3em; 
+    flex-wrap: wrap;
+}
+.buy img{
+    object-fit: cover;
+    width: 100%;
+    height: 20em;
+    border: solid 2px;
+    border-color: #393646;
+}
+.buy-info{
+float: right;
+    margin-top: 2em;
+    padding-right: 6em;
+}
+
+.sizes {
+    display: flex;
+    flex-wrap: row;
+    list-style: none;
+} 
+.size{
+    width: 4em;
+    margin-left: 2px;
+    height: 4em;
+    border: 2px solid #393646;
+}
+.size-letra{
+    display: flex;
+    flex-direction: column;
+    color: #393646;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400 bold;
+    font-size: 1.2em;
+
+}
+.buy-info h2{
+    color: #393646;
+    font-weight: 600 bold;
+    font-size: 1.8em;
+}
+.buy-info p{
+    color: #393646;
+    font-weight: 400 bold;
+    font-size: 1.8em;
+}
+.buy-info button{
+    margin-top: 0.5em;
+    background-color: #393646;
+    border: 0;
+    width: 15em;
+    height: 2em;
+    font-weight: 400 bold;
+    color: #F4EEE0;
+    font-size: 1em;
+}
+.aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #393646;
+    font-weight: 900 bold;
+    font-size: 5em;
+}
+.about1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5em;
+}
+.about1 h3{
+    padding-left: 2em;
+    color: #393646;
+    font-weight: 700 bold;
+    font-size: 1.5em;
+}
+.about1 p{
+    width: 25em;
+    padding-top: 1.8em;
+    color: #393646;
+    font-weight: 400;
+    font-weight: 1.2em;
+}
+.about1 img{
+    object-fit: cover;
+    width: 50%;
+    height: 20em;
+}
+.about2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5em;
+    justify-content: flex-end;
+}
+.about2 h3{   
+    color: #393646;
+    font-weight: 700 bold;
+    font-size: 1.5em;
+}
+.about2 p{
+    width: 25em;
+    padding-top: 1.8em;
+    color: #393646;
+    font-weight: 400;
+    font-weight: 1.2em;
+}
+
+.about2 img{
+    object-fit: cover;
+    width: 40%;
+    height: 20em;
+
+}
+.about3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5em;
+}
+.about3 h3{
+    padding-left: 2em;
+    color: #393646;
+    font-weight: 700 bold;
+    font-size: 1.5em;
+}
+.about3 p{
+    width: 25em;
+    padding-top: 1.8em;
+    color: #393646;
+    font-weight: 400;
+}
+.about3 img{
+    margin-left: 2em;
+    object-fit: cover;
+    width: 50%;
+    height: 25em;
+}
+
+.stores h2{
+    display: flex;
+    justify-content: center;
+    color: #393646;
+    font-weight: 900 bold;
+    font-size: 3.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.stores p{
+    display: flex;
+    justify-content: center;
+    color: #393646;
+    font-weight: 500 bold;
+    font-size: 2.2em;
+}
+    .grid-areas{
+        display: grid;
+        grid-template-columns: 15em 60%;
+        grid-template-rows: repeat(6, 1fr) ;
+        grid-template-areas: 
+        "montevideo montevideo-img"
+        "montevideo montevideo-img"
+        "canelones canelones-img"
+        "canelones canelones-img"
+        "san san-img"
+        "san san-img"
+        ;
+        margin-top: 5em;
+    }
+    .montevideo{
+        grid-area: montevideo;
+        display: flex;
+        flex-direction: column;
+        }
+    .text-city {
+            padding-left: 1em;
+            color: red;
+        }
+    .text-city h3{
+    display: flex;
+    color: #393646;
+    justify-content: center;
+    }
+    .text-city p{
+        display: flex;
+        color: #393646;
+        justify-content: center;
+        }
+    .montevideo-img{
+        grid-area: montevideo-img;
+    }
+    .montevideo-img img{
+        width: 100%;
+        object-fit: cover;
+        border: 3.5px solid #393646;
+        cursor: pointer;
+    }
+    .montevideo-img img:hover{
+        border-color: #b443b4;
+    }
+    .canelones{
+        grid-area: canelones;
+    }
+    .canelones-img{
+        grid-area: canelones-img;
+    }
+    .canelones-img img{
+        width: 100%;
+        object-fit: cover;
+        border: 3.5px solid #393646;
+        cursor: pointer;
+    }
+    .canelones-img img:hover{
+        border-color: #b443b4;
+    }
+    .san{
+        grid-area: san;
+    }
+    .san-img{
+        grid-area: san-img;
+    }
+    .san-img img{
+        width: 100%;
+        object-fit: cover;
+        border: 3.5px solid #393646;
+        cursor: pointer;
+    }
+    .san-img img:hover{
+      border-color: #b443b4;
+    }
+    
+    
+@media (max-width: 1024px) {
+    .header-nav{
+        height: 4.2em;
+    } 
+    .title h1{
+        font-size: 55px;
+    } 
+    .banner img{
+        height: 45vh;
+    }
+    .container-new{
+        height: 25em;
+    }
+    .new img{
+        height: 16em;
+    }
+    .info h3{
+        font-size: 1.2em;
+    }
+    .info p{
+        font-size: 1em;
+    }
+    .products{
+        width: 16em;
+    }
+    .products img{
+        height: 22em;
+    }
+    .products h3{
+        font-size: 1.4em;
+    }
+    .stores p{
+        font-size: 1.6em;
+    }
+}
+@media (max-width: 768px) {
+    .header-nav{
+        height: 4.2em;
+    } 
+    .title h1{
+        font-size: 50px;
+    } 
+    .navbar a{
+        font-size: 1.2em;
+    }
+    .banner img{
+        height: 45vh;
+    }
+    .container-new{
+        height: 22em;
+    }
+    .new img{
+        height: 10em;
+    }
+    .info h3{
+        font-size: 1.1em;
+        
+    }
+    .info p{
+        color: #393646;
+        font-size: 1em;
+    }
+    .products{
+        width: 14em;
+    }
+    .products img{
+        height: 16em;
+    }
+    .stores p{
+        font-size: 1.2em;
+    }
+    .grid-areas{
+        display: grid;
+        grid-template-columns: 60%;
+        grid-template-rows: 10vh 1fr 10vh 1fr 10vh 1fr ;
+        grid-template-areas: 
+        "montevideo"
+        "montevideo-img"
+        "canelones"
+        "canelones-img"
+        "san"
+        "san-img"
+        ;
+        justify-content: center;
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+    .text-city{
+        display: flex;
+        justify-content: space-around;
+    }
+    .text-city h3{
+        display: flex;
+        color: #393646;
+        justify-content: center;
+        }
+        .text-city p{
+            display: flex;
+            color: #393646;
+            text-align: center;
+            }
+    footer{
+        margin-top: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 15em;
+    } 
+    .contact h6{
+        display: flex;
+        justify-content: center;
+        font-size: 1.8em;
+    }
+    .contact p{
+        display: flex;
+        justify-content: center;
+        font-size: 1em;
+    }
+    .contact2 h6{
+        display: flex;
+        justify-content: center;
+    }
+    .contact2 p{
+        display: flex;
+        justify-content: center;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+    }
+    .form button{
+        margin-left: 0.5em;
+    }
+}
+@media (max-width: 538px) {
+    .container-new{
+        margin-top: 5em;
+        height: 50em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10em;
+        
+    }
+    .container-products{
+        margin-top: 15em;
+        margin-bottom: 20em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .products img{
+        height: 16em;
+    }
+    .stores h2{
+        font-size: 2em;
+    }
+    .stores p{
+        font-size: 0.9em;
+    }
+    .text-city{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .contact2 p{
+        font-size: 13px;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+    }
+    .form button{
+        margin-left: 0.5em;
+    }
+}
+@media (max-width: 425px) {
+    .stores p{
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 375px) {
+    .header-nav{
+        height: 10em;
+        flex-direction: column;
+    } 
+    .contact2 p{
+        display: flex;
+        justify-content: center;
+        font-size: 11px;
+    }
+}
+@media (max-width: 325px) {
+    .contact2 p{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+    .stores p{
+        font-size: 0.6em;
+    }
+}
