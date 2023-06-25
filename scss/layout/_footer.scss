@@ -1,0 +1,62 @@
+footer{
+    margin-top: 7em;
+    background-color: #393646;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10em;
+    width: 100%;
+} 
+.contact{ 
+    padding-top: 0.6em;
+    padding-left: 1em;
+    cursor: pointer;
+    h6{
+        
+        font-weight: 500;
+        font-size: 1.8em;
+        color:#F4EEE0;
+        cursor: pointer;
+    }
+    p{
+        font-weight: 300;
+        font-size: 1em;
+        color:#F4EEE0;
+        cursor: pointer;
+    }
+}
+.contact2{
+    padding-top: 0.8em;
+    padding-right: 1em;
+    cursor: pointer;
+    h6{
+        font-weight: 500;
+        font-size: 1.2em;
+        color:#F4EEE0;
+    }
+    p{
+        font-weight: 300;
+        font-size: 1.2em;
+        color:#F4EEE0;
+    }
+}
+.form{
+    #mail{
+        background-color: #F4EEE0;
+        width: 9em;
+        height: 2em;
+        border: 0;
+        color: #393646;
+        font-size: 1em;
+    }
+    button{
+        background-color: #6D5D6E;
+        color: #F4EEE0;
+        border: 0;
+        width: 5em;
+        height: 2.2em;
+    }
+    button:hover{   
+        background-color: $hovertext;
+    }
+}
